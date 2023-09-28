@@ -79,13 +79,13 @@ const HeaderMovies = () => {
     let itemsMenus = [
         {label: <NavLink to="/"> Trang chu </NavLink>, key: '/'},
         {label: <NavLink to="/upcoming">Phim sap trinh chieu</NavLink>, key: '/upcoming'},
-        {label: <Search 
-                    placeholder="input search with enterButton"
-                    enterButton 
-                    style={{ marginTop: '15px' }}
-                    onSearch={keyword => searchMovieByName(keyword)}
-                />
-        },
+        // {label: <Search 
+        //             placeholder="input search with enterButton"
+        //             enterButton 
+        //             style={{ marginTop: '15px' }}
+        //             onSearch={keyword => searchMovieByName(keyword)}
+        //         />
+        // },
         {
           label:
           <AutoComplete
