@@ -97,11 +97,11 @@ const HeaderMovies = () => {
             onSelect={onSelect}
             onSearch={handleSearch}
           >
-            <Search
+{/*             <Search
               size="large"
               placeholder="input here" enterButton
               defaultValue={''}
-            />
+            /> */}
           </AutoComplete>
         },
         {label: <NavLink to="/favoirte"> Phim yeu thich</NavLink>, key: '/favoirte'},
